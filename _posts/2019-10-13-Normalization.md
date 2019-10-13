@@ -3,7 +3,7 @@ layout: post
 title: "Normalization"
 description: An example post which explain why we use nomalization to data.
 date: 2019-10-13 02:47
-categories: Tensorflow, Jupytor
+categories: Tensorflow JupytorNotebook
 ---
 ### 언제 *Normalization*이 필요한가?
 
