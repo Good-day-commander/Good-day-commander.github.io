@@ -134,6 +134,7 @@ def normalization(data):
 xy = normalization(xy)
 ~~~
 ![normalization](/images/result_normalization.PNG)
+
 깔끔하게 [0, 1] 범위 값들로 정리된 것을 확인할 수 있다.
 
 이 코드를 X_train, y_train 정의 전에 삽입 후 결과를 살펴보자.
