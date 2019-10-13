@@ -120,7 +120,7 @@ for step in range(EPOCHS):
 - - -
 ### 어떻게 *Normalization*할까?
 
-![](D:\github images\how_to_normalization.png)
+![no_normalization](/images/how_to_normalization.png)
 
 사진 설명이 워낙 명료해서 굳이 코멘트를 붙일 필요 없을 듯
 
