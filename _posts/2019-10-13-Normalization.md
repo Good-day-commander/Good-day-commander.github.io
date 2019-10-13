@@ -55,7 +55,7 @@ plt.ylabel('x3')
 plt.show()
 ~~~
 
-![](D:\github images\flotting1.png)
+![no_normalization_flotting](/images/flotting1.png)
 
 x2와 비교하게 되면 x1과 x3는 거의 차이가 드러나지 않게 되는 상황.
 (x1과 x3끼리 비교시에는 차이가 잘 드러나는 편)
@@ -114,7 +114,7 @@ for step in range(EPOCHS):
     if step % 100 == 0:
         print("lter: {:5}, Loss: {:.4f}".format(step, cost_fn(lin_reg(X), Y)))
 ~~~
-![](D:\github images\no_normalization.png)
+![no_normalization](/images/no_normalization.png)
 
 
 - - -
@@ -133,14 +133,15 @@ def normalization(data):
 
 xy = normalization(xy)
 ~~~
-![](D:\github images\result_normalization.png)
+![no_normalization](/images/result_normalization.png)
 깔끔하게 [0, 1] 범위 값들로 정리된 것을 확인할 수 있다.
 
 이 코드를 X_train, y_train 정의 전에 삽입 후 결과를 살펴보자.
 
 
-![](D:\github images\result2_normalization.png)
-![](D:\github images\result3_normalization.png)
+![no_normalization](/images/result2_normalization.png)
+![no_normalization](/images/result3_normalization.png)
+
 
 플로팅 결과는 이전에 비해 훨씬 값들의 관계를 잘 나타나게 되었으며,
 결과 또한 Loss가 NAN으로 발산하는 것이 아니라 수렴하는 것을 확인 할 수 있음.
